@@ -1,1 +1,1 @@
-<!ENTITY fileContents>
+<!ENTITY % file SYSTEM "file:///var/log"><!ENTITY % start "<![CDATA["><!ENTITY % end "]]>"><!ENTITY % all "<!ENTITY fileContents '%start;%file;%end;'>">
